@@ -9,8 +9,6 @@ class VaultKeeper < Formula
     sha256 "692602db485862d50ff7010f9ed364aa7118cc6164d132403ac2b9e7208aa93f"
   end
 
-  auto_updates true
-
   def install
     app = File.basename(Dir["*.app"].first)
     prefix.install app
