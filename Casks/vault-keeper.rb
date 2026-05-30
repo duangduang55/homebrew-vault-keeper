@@ -1,6 +1,6 @@
 cask "vault-keeper" do
-  version "1.0.0"
-  sha256 arm: "692602db485862d50ff7010f9ed364aa7118cc6164d132403ac2b9e7208aa93f"
+  version "1.1.0"
+  sha256 arm: "6db75e9eabe0d11d89b75b9ef6088f372f3533e97b58f0b395b9d7148d587a88"
 
   url "https://github.com/duangduang55/vault-keeper/releases/download/v#{version}/qingmi_#{version}_aarch64.dmg"
   name "清密"
